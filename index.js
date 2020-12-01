@@ -9,9 +9,6 @@ converse.plugins.add('myplugin', {
   initialize: function () {
     const _converse = this._converse;
     _converse.api.listen.on('messageSend', function (message) {
-        // new Notification('New Message', { 
-        //   body: message.attributes.message,
-        // });
         Toastify({
           text: message.attributes.message,
           duration: 3000,
