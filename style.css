@@ -1,0 +1,6 @@
+converse-chat-message[sender='me'] {
+  width: 100%;
+  display: inline-block;
+  text-align: right;
+  float: right;
+}
