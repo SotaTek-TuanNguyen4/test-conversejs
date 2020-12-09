@@ -1,6 +1,8 @@
 converse-chat-message[sender='me'] {
-  width: 100%;
-  display: inline-block;
   text-align: right;
-  float: right;
+  order: 1;
+}
+
+converse-chat-message[sender='me'] .chat-msg--with-avatar .chat-msg__avatar.avatar {
+  order: 1;
 }
