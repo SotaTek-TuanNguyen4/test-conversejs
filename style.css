@@ -1,6 +1,5 @@
 converse-chat-message[sender='me'] {
   text-align: right;
-  order: 1;
 }
 
 converse-chat-message[sender='me'] .chat-msg--with-avatar .chat-msg__avatar.avatar {
